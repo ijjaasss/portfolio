@@ -32,7 +32,7 @@ function sendMail(event) {
           alert('Your message sent successfully!');
       }, function(error) {
           console.log('FAILED...', error);
-          // Handle errors here
+          
           alert('Failed to send message. Please try again later.');
       });
   }
